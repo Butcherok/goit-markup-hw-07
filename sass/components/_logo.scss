@@ -1,0 +1,29 @@
+%logo-base {
+    display: block;
+
+    text-decoration: none;
+    color: $text-color-accent;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+}
+.logo {
+    @extend %logo-base;
+    margin-right: 93px;
+}
+
+.logo-part {
+    color: $logo-color-secondary;
+}
+
+.logo-bsmt {
+    @extend %logo-base;
+    margin-bottom: 20px;
+}
+
+.logo-bsmt-part {
+    color: $footer-color-text-secondary;
+}
