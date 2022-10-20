@@ -1,53 +1,28 @@
 @import './utils/vars';
 @import './base/bases';
 @import './components/logo';
-@import './components/header';
-@import './components/footer';
+@import './components/header/nav';
+@import './components/header/header-contacts';
+@import './components/footer/address';
+@import './components/footer/soc-net';
+@import './components/footer/subscribe';
+@import './components/main-page/hero';
+@import './components/main-page/modal';
+@import './components/main-page/features';
+@import './components/main-page/works';
+@import './components/main-page/teammates';
+@import './components/main-page/clients';
+@import './components/portfolio/gallery-nav';
+@import './components/portfolio/cards';
 
 
-    $text-color-primary: #212121;
-    $text-color-secondary: #757575;
-    $text-color-accent: #2196F3;
-    $logo-color-secondary: black;
-    $footer-color-text-primary:rgba(255, 255, 255, 0.6);
-    $footer-color-text-secondary: #ffffff;
-    $footer-bg-color: #2F303A;
-    $header-color-border: #ECECEC;
-    $team-bg-color: #F5F4FA;
-    $client-color-primary: #AFB1B8;
+
+
+
+
+
+
+
+
+
     
-body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: var(--text-color-primary);
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-h1, h2, h3, h4, p, ul {
-    margin: 0;
-}
-
-ul, ol {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
