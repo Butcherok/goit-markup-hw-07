@@ -1,12 +1,25 @@
 .follow {
     display: block;
-    margin-left: auto;}
+    margin-left: auto;
+}
 
-.follow-us {
+.follow__title {
+margin-bottom: 20px;
+color: $footer-color-text-secondary;
+
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.follow__form {
     display: flex;
 }
 
-.user-email {
+.follow__email {
     display: flex;
     text-align: start;
     width: 358px;
@@ -22,10 +35,10 @@
     line-height: 1.25;
     letter-spacing: 0.03em;
 
-    color: var(--footer-color-text-primary);
+    color: $footer-color-text-primary;
 }
 
-.bsmt-btn {
+.follow__btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,14 +53,14 @@
     letter-spacing: 0.06em;
     cursor: pointer;
 
-    background-color: var(--text-color-accent);
-    color: var(--footer-color-text-secondary);
+    background-color: $text-color-accent;
+    color: $footer-color-text-secondary;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 }
 
-.bsmt-send-icon {
+.follow__icon {
     margin-left: 10px;
 
-    fill: var(--footer-color-text-secondary);
+    fill: $footer-color-text-secondary;
 }
