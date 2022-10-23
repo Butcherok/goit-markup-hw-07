@@ -1,0 +1,42 @@
+.socials__title {
+    margin-bottom: 20px;
+    color: $footer-color-text-secondary;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.socials__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socials__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: $footer-color-text-secondary;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus, &:hover {
+    background-color: $text-color-accent;
+    fill: $footer-color-text-secondary;
+    }
+}
+
+.socials__icon {
+    color: currentColor;
+}
