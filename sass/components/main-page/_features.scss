@@ -1,0 +1,46 @@
+.features {
+    padding: 94px 0;
+}
+
+.features__list {
+    display: flex;
+    list-style-type: none;
+}
+
+.about__item {
+    width: calc((100% - 90px) / 4);
+    margin-right: 30px;
+
+    &:nth-last-child(-n + 1) {
+    margin-right: 0px;
+    }
+}
+
+.about__draw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    margin-bottom: 20px;
+    background-color: $team-bg-color;
+}
+.about__icon {
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.about__title {
+    margin-bottom: 10px;
+
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+.about__text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: $text-color-secondary;
+}
